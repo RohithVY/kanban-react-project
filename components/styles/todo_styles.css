@@ -1,0 +1,40 @@
+.todo__container {
+  display: flex;
+  flex-direction: column;
+  width: 354px;
+  background: #f5f5f5;
+  border-radius: 16px 16px 0px 0px;
+  margin: 10px 15px;
+}
+
+.todo__top {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo__addbtn {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
+
+.violet__saperation {
+  border-bottom: 3px solid #5030e5;
+}
+
+.green__saperation {
+  border-bottom: 3px solid #7ac555;
+}
+
+.orange__saperation {
+  border-bottom: 3px solid #ffa500;
+}
+
+.violet__saperation,
+.green__saperation,
+.orange__saperation {
+  width: 314px;
+  margin: 0 calc((354px - 314px) / 2);
+}

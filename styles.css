@@ -13,3 +13,10 @@
   display: inline-block;
 }
 
+.todo__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  height: 65vh;
+}
+
+

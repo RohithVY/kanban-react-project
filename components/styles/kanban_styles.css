@@ -38,13 +38,9 @@
   color: #5030e5;
 }
 
-.filter_btn_container,
-.date_btn_container,
-.share__btn__container {
-}
 
 .kanban__middle {
-  margin-top: 40px;
+  margin: 40px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

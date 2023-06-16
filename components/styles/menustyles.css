@@ -110,6 +110,10 @@
   color: #ffa500 !important;
 }
 
+.violet {
+  color: #5030e5 !important ;
+}
+
 .lightpurple {
   color: #e4ccfd !important;
 }
@@ -157,7 +161,7 @@
 }
 
 .lampimage {
-  box-shadow: inset 0px 0px 43px 12px #fcba0396,0px 2px 37px 10px #fcba0396;
+  box-shadow: inset 0px 0px 23px 12px #fcba0396, 0px 2px 37px 10px #fcba0396;
 }
 
 .notice__container {
