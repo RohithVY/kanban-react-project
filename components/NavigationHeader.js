@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/logo.svg";
 import search from "../assets/search.svg";
 import navicons from "../assets/navicons.svg";
 import user from "../assets/user.svg";
@@ -9,10 +8,7 @@ import './styles/nav_styles.css'
 const NavigationHeader = () => {
   return (
     <div className="nav__wrapper">
-      {/* <span className="logo__wrapper">
-        <img src={logo} alt="logo" />
-        <h1>Project M.</h1>
-      </span> */}
+      
       <span className="nav__searchwrapper">
         <img src={search} alt="search__icon" />
         <input
