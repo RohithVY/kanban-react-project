@@ -9,7 +9,7 @@ import profile from "../assets/profile.svg";
 import setting from "../assets/setting.svg";
 import addsquare from "../assets/addsquare.svg";
 import threedots from "../assets/threedots.svg";
-import Notification from "./Notification.js";
+import Notification from "./NotificationMenuBar.js";
 
 const SideMenuBar = () => {
   return (
