@@ -1,0 +1,123 @@
+.card__wrapper {
+  background: white;
+  border-radius: 1rem;
+  margin: 1.25rem;
+  padding: 1.25rem;
+  width: 19.625rem;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dots {
+  width: 0.8rem;
+}
+
+.card__image {
+  width: 18.125rem;
+  max-width: 100%;
+}
+
+.card__priority {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem 0.375rem;
+  width: max-content;
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+}
+
+.card__high {
+  color: #d8727d;
+  background: rgba(216, 114, 125, 0.1);
+}
+
+.card__low {
+  color: #d58d49;
+  background: rgba(223, 168, 116, 0.2);
+}
+
+.card__completed {
+  color: #68b266;
+  background: rgba(131, 194, 157, 0.2);
+}
+
+.card__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  /* identical to box height */
+  margin-top: 0.25rem;
+  color: #0d062d;
+}
+
+.card__description {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  color: #0d062d;
+  margin-top: 0.375rem;
+}
+
+.card__footer {
+  min-height: 1.25rem;
+  margin-top: 0.9375rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.card__teammember,
+.card__teamextend {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+}
+
+.card__teamextend {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #787486;
+}
+
+.card__convers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comments__wrapper, .files__wrapper{
+  display: flex;
+  flex-direction: row;
+}
+.card__comments, .card__files{
+  margin-right: 5px;
+}
+
+.card__comments__count{
+  margin-right: 14px;
+}

@@ -7,16 +7,46 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-}
-
-.app {
-  display: inline-block;
+  scroll-behavior: smooth;
 }
 
 .todo__wrapper {
   display: flex;
   justify-content: space-evenly;
-  height: 65vh;
+  height: 100%;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  visibility: hidden;
+  border-radius: 20%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  visibility: visible;
+}
+
+::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 10px;
+}

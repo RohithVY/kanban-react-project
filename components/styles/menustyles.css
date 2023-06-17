@@ -4,9 +4,10 @@
 .menu__container {
   position: sticky;
   float: left;
-  height: 100%;
+  height: 100vh;
   width: 285px;
   border-right: 1px solid #dbdbdb;
+  background-color: white;
 }
 
 .logo__wrapper {
@@ -15,7 +16,6 @@
   border-bottom: 1px solid #dbdbdb;
   justify-content: center;
   align-items: center;
-  /* flex-direction: column; */
 }
 
 .logo__wrapper > h1 {
@@ -29,7 +29,7 @@
 .toggle__menu {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .menu__item {
@@ -146,6 +146,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .lamp {
@@ -160,12 +161,18 @@
   justify-content: center;
 }
 
-.lampimage {
-  box-shadow: inset 0px 0px 23px 12px #fcba0396, 0px 2px 37px 10px #fcba0396;
+.blur__bg {
+  z-index: 10;
+  background: rgba(252, 214, 74, 0.7);
+  filter: blur(17px);
+  width: 35px;
+  height: 35px;
+  z-index: 2;
 }
 
-.notice__container {
-  margin-top: 45px;
+.lampimage{
+  z-index: 3;
+  position: absolute;
 }
 
 .notice__box {
