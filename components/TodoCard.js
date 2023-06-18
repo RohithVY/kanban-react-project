@@ -38,7 +38,7 @@ const TodoCard = ({ task, draggableProvided, draggableSnapshot }) => {
           </div>
           <img
             src="https://www.svgrepo.com/show/124304/three-dots.svg"
-            alt=""
+            alt="..."
             className="dots"
           />
         </div>
