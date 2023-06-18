@@ -8,6 +8,7 @@ import person5 from "../assets/person5.svg";
 import comments from "../assets/comments.svg";
 import files from "../assets/files.svg";
 
+// Feature for more users
 const getRandomImages = (count) => {
   const images = [person1, person2, person3, person4, person5];
   const selectedImages = [];
@@ -57,11 +58,6 @@ const TodoCard = ({ task, draggableProvided, draggableSnapshot }) => {
                 alt={`Team Member ${index + 1}`}
               />
             ))}
-            {task.teamcount > 3 ? (
-              <span className={`card__teamextend card__${task.priority}`}>
-                ${`+${task.teamcount - 2}`}
-              </span>
-            ) : null}
           </span>
           <span className="card__convers">
             <span className="comments__wrapper">

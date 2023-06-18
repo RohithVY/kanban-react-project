@@ -3,7 +3,7 @@ import edit from "../assets/penciledit.svg";
 import bodylink from "../assets/bodylink.svg";
 import people from "../assets/people.svg";
 import addblue from "../assets/addblue.svg";
-import './styles/kanban_styles.css'
+import "./styles/kanban_styles.css";
 
 const KanbanHeader = () => {
   return (
