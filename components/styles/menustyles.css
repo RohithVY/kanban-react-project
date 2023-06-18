@@ -98,8 +98,9 @@
   display: flex;
   justify-content: space-between;
 }
+
 .project__dot {
-  margin: 0 12px;
+  margin-right:12px;
   width: 8px;
   font-size: 25px;
 }

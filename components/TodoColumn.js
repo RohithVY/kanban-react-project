@@ -17,7 +17,7 @@ const TodoColumn = ({ column, tasks }) => {
               <div className="todo__top">
                 <span className="todo__titlewrap">
                   <span className={`project__dot ${column.name}`}>&bull;</span>
-                  <span className="todo__title">{column.title}</span>
+                  <span className="c">{column.title}</span>
                   <div className="todo__length">{column.taskIds.length}</div>
                 </span>
                 {column.btn && (

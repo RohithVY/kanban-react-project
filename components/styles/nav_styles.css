@@ -21,9 +21,15 @@
     display: none;
   }
 
-  /* .todo__container */
+  .nav__searchinput{
+    width: 200px;
+  }
 
-  .todo__container{
+  .kanban__middle {
+    justify-content: center; 
+  }
+
+  .todo__container {
     min-height: 30vh;
     max-height: 30vh;
     min-width: max-content;
@@ -54,13 +60,11 @@
   }
 }
 
-.nav__icons{
+.nav__icons {
   height: 24px;
 }
 
-
 @media (max-width: 1200px) {
-
   .nav__icons {
     display: none;
   }

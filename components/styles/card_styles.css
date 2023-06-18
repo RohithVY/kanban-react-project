@@ -76,6 +76,7 @@
   justify-content: space-between;
   position: relative;
   overflow: hidden;
+  z-index: 0;
 }
 
 .card__teammember,
@@ -85,6 +86,7 @@
   height: 24px;
   border-radius: 50%;
   border: 1px solid #ffffff;
+  z-index: 0;
 }
 
 .card__teamextend {
@@ -95,8 +97,6 @@
 }
 
 .card__footer {
-  display: flex;
-  justify-content: space-between;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;

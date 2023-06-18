@@ -9,6 +9,7 @@
   overflow-x: hidden;
   max-height: 60vh;
   min-height: 60vh;
+  min-width: 354px;
 }
 
 .todo__dropwrapper {
@@ -23,6 +24,8 @@
   justify-content: space-between;
   align-items: center;
   width: 19.625rem;
+  background-color: #F5F5F5;
+  z-index: 9;
 }
 
 .todo__titlewrap {
@@ -49,7 +52,6 @@
 .todo__addbtn {
   width: 24px;
   height: 24px;
-  margin-right: 20px;
 }
 
 .violet__saperation {
