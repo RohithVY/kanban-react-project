@@ -25,3 +25,7 @@ This project is a Kanban Clone built using React. It aims to replicate the desig
 ![image](https://github.com/RohithVY/kanban-react-project/assets/110025038/f167613c-744f-445c-91b1-ec56fbd3c707)
 
 ---
+
+## Local Setup Commands
+1. `npm install` - to install dependencies
+2. `npm start` - to setup local server and run project locally
