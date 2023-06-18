@@ -27,7 +27,13 @@
   background-color: #F5F5F5;
   z-index: 9;
 }
+.project__dot{
+  font-size: 20px;
+}
 
+.todo__titlewrap > .project__dot{
+  margin-right: 4px;
+}
 .todo__titlewrap {
   display: flex;
   justify-content: center;
