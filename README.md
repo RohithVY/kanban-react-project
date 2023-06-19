@@ -3,6 +3,10 @@
 ## Description 
 This project is a Kanban Clone built using React. It aims to replicate the design provided in the Figma file and implement the Kanban functionality, allowing users to drag cards between columns.
 <br>
+<br>
+
+[Live Website](https://kanban-react-dragndrop-project.netlify.app/)
+<br>
 
 ---
 
